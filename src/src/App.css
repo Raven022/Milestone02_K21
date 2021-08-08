@@ -32,12 +32,14 @@
   text-align: center;
 
   color:black;
+
 }
 
 .bg-image{
   background-image: url("img/landingpage.png");
   background-size: cover;
-  height: 300vh;
+  height: 100vh;
+
 }
 
 /* Group 3 */
@@ -156,14 +158,49 @@ border-radius: 10px; */
 .stud{
   position: absolute;
   width: 734px;
-  height: 570px;
+  height: auto;
   left: 60%;
   top: 40%;
+  max-width: 100%;
 }
 
-img {
-  max-height: 100%;
-  max-width: 100%;
-  margin: auto;
-  display: block;
+
+  /* Group 3 */
+
+/* position: absolute;
+width: 252px;
+height: 67px;
+left: 169px;
+top: 709px; */
+
+
+
+/* Rectangle 4 */
+.tombol-2{
+
+background: #056676;
+border-radius: 10px;
+
+
+/* Yuk Donate! */
+}
+/* position: absolute;
+width: 252px;
+height: 65px;
+left: 169px;
+top: 709px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF; */
+
+a{
+  text-decoration: none;
 }
