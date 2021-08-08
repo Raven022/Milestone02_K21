@@ -204,3 +204,15 @@ color: #FFFFFF; */
 a{
   text-decoration: none;
 }
+
+.judul{
+  font-weight: bolder;
+}
+
+.txt{
+  color: #FFFFFF;
+}
+
+.tebal{
+  font-weight: bolder;
+}
