@@ -6,7 +6,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-Mycolor">
       <div class="container bagibuku">
         <img src="./images/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
-        <a class="navbar-brand ms-3" href="#home">
+        <a class="navbar-brand ms-3" href="http://localhost:3000">
           Bagibuku
         </a>
         <button
@@ -22,10 +22,10 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link tombol px-5" href="#TentangKami">
+            <a class="nav-link tombol px-5" href="http://localhost:3000/about">
               Tentang Kami
             </a>
-            <a class="nav-link tombol tombol-2 px-4" href="#LoginSekolah">
+            <a class="nav-link tombol tombol-2 px-4" href="http://localhost:3000/login">
               Login Sekolah
             </a>
           </div>

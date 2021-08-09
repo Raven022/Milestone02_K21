@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Login from "./components/login";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <h1>List Sekolah</h1>
         </Route>
         <Route exact path="/login">
-          <h1>Login</h1>
+          <Login />
         </Route>
         <Route exact path="/profile_sekolah">
           <h1>Profile Sekolah</h1>

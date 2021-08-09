@@ -22,7 +22,7 @@ function Home() {
                 </a>
                 <a
                   class="btn btn-lg how-works px-4"
-                  href="#bagaimana-bagibuku-bekerja"
+                  href="http://localhost:3000/about"
                   role="button"
                 >
                   Bagaimana Bagibuku Bekerja

@@ -1,0 +1,55 @@
+.bg-image {
+    background-image: url("./../img/loginpage.png");
+    background-size: cover;
+  }
+
+  .login_box {
+    background-color: #E8DED2;
+    position: absolute;
+    width: 600px;
+    height: 480px;
+    left: 850px;
+    top: 130px;
+  }
+  .icon-img {
+    height: 100px;
+    width: 100px;
+    top: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 225px;
+  }
+  
+  .email-address {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+  }
+
+  .isi-email {
+    margin-bottom: 20px;
+  }
+
+  .password {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .Remember-me {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .submit-button {
+    width: 575px;
+  }
