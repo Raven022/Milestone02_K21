@@ -1,28 +1,21 @@
-.bg-Mycolor{
-  background-color: #E8DED2;
+.bg-Mycolor {
+  background-color: #e8ded2;
 }
 
-*{
+* {
   box-sizing: content-box;
 }
 
-.tombol{
-  font-family: 'Montserrat', sans-serif;
+.tombol {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 37px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color:black;
-
-
+  color: white;
 }
 
-.bagibuku{
-  font-family: 'Montserrat', sans-serif;
+.bagibuku {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -31,15 +24,12 @@
   align-items: center;
   text-align: center;
 
-  color:black;
-
+  color: black;
 }
 
-.bg-image{
+.bg-image {
   background-image: url("img/landingpage.png");
   background-size: cover;
-  height: 100vh;
-
 }
 
 /* Group 3 */
@@ -49,8 +39,6 @@ width: 252px;
 height: 67px;
 left: 169px;
 top: 709px; */
-
-
 
 /* Rectangle 4 */
 
@@ -63,90 +51,50 @@ top: 709px;
 background: #056676;
 border-radius: 10px; */
 
-
 /* Yuk Donate! */
-.yuk-donate{
-  position: absolute;
-  width: 252px;
-  height: 65px;
-  left: 80px;
-  top: 500px;
-
+.yuk-donate {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   display: flex;
   align-items: center;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
-
 
 /* Bagibuku */
-.bagi-buku{
-  position: absolute;
-  width: 311px;
-  height: 113px;
-  left: 80px;
-  top: 300px;
-
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 85px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-}
-
- 
-.about-us{
-  position: absolute;
-  width: 709px;
-  height: 141px;
-  left: 80px;
-  top: 380px;
-
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 48px;
-  display: flex;
-  align-items: center;
-  text-align: justify;
-
-  color: #FFFFFF;
-}
-
-
-.how-works{
-  position: absolute;
-  width: 386px;
-  height: 63px;
-  left: 350px;
-  top: 500px;
-
+.bagi-buku {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 46px;
   display: flex;
   align-items: center;
   text-align: center;
+  color: #ffffff;
+}
 
-  color: #FFFFFF;
+.about-us {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.how-works {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 /* Group 4 1 */
-.pos-logo{
+.pos-logo {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -155,7 +103,7 @@ border-radius: 10px; */
 }
 
 /* Component 1 */
-.stud{
+.stud {
   position: absolute;
   width: 734px;
   height: auto;
@@ -164,8 +112,7 @@ border-radius: 10px; */
   max-width: 100%;
 }
 
-
-  /* Group 3 */
+/* Group 3 */
 
 /* position: absolute;
 width: 252px;
@@ -173,16 +120,12 @@ height: 67px;
 left: 169px;
 top: 709px; */
 
-
-
 /* Rectangle 4 */
-.tombol-2{
+.tombol-2 {
+  background: #056676;
+  border-radius: 10px;
 
-background: #056676;
-border-radius: 10px;
-
-
-/* Yuk Donate! */
+  /* Yuk Donate! */
 }
 /* position: absolute;
 width: 252px;
@@ -201,18 +144,18 @@ text-align: center;
 
 color: #FFFFFF; */
 
-a{
+a {
   text-decoration: none;
 }
 
-.judul{
+.judul {
   font-weight: bolder;
 }
 
-.txt{
-  color: #FFFFFF;
+.txt {
+  color: #ffffff;
 }
 
-.tebal{
+.tebal {
   font-weight: bolder;
 }
