@@ -1,0 +1,26 @@
+/* Navbar */
+.tombol {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.bagibuku {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+
+.tombol-2 {
+  background: #056676;
+  border-radius: 10px;
+}

@@ -1,18 +1,8 @@
-.bg-Mycolor {
-  background-color: #e8ded2;
-}
-
-* {
-  box-sizing: content-box;
-}
-
 .bg-image {
-  background-image: url("img/landingpage.png");
+  background-image: url("./../img/landingpage.png");
   background-size: cover;
 }
 
-/* Home */
-/* Yuk Donate! */
 .yuk-donate {
   font-family: Montserrat;
   font-style: normal;
@@ -52,20 +42,4 @@
   font-weight: bold;
   font-size: 20px;
   color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-}
-
-.judul {
-  font-weight: bolder;
-}
-
-.txt {
-  color: #ffffff;
-}
-
-.tebal {
-  font-weight: bolder;
 }
