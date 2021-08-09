@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // Komponen Website
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/about">
-          <h1>ABOUT</h1>
+          <About />
         </Route>
         <Route exact path="/list_sekolah">
           <h1>List Sekolah</h1>
