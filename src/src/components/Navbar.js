@@ -15,10 +15,10 @@ function Navbars() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link className="tombol px-5" href="http://localhost:3000/about">
+            <Nav.Link className="tombol px-4" href="http://localhost:3000/about">
               Tentang Kami
             </Nav.Link>
-            <Nav.Link className="tombol tombol-2 px-4" eventKey={2} href="http://localhost:3000/login">
+            <Nav.Link className="tombol tombol-2 px-4" eventKey={2} href="http://localhost:3000/login" type="button">
               Login Sekolah
             </Nav.Link>
           </Nav>

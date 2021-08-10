@@ -5,26 +5,20 @@ function Home() {
   return (
     <div className="bg-image" id="content">
       <section id="home">
-        <div class="container-lg">
-          <div class="row min-vh-100 align-items-center align-content-center">
-            <div class="col-md-5">
-              <div class="home-img text-center"></div>
+        <div className="container-lg">
+          <div className="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md">
+              <div class="home-img"></div>
               <img src="./images/givebook.png" className="mw-100" />
             </div>
-            <div class="col-md-7 order-md-first">
-              <div class="home-text">
-                <h1 class="bagi-buku mt-5">Bagibuku</h1>
-                <p class="about-us mt-5">
-                  Bagibuku adalah sebuah platform untuk membantu para buku menemukan rumah barunya.
-                </p>
-                <a class="btn btn-lg btn-primary yuk-donate" href="#Yuk-Donate" role="button">
+            <div className="col-md order-md-first">
+              <div className="home-text">
+                <h1 className="bagi-buku mt-5">Bagibuku</h1>
+                <p className="about-us mt-5">Bagibuku adalah sebuah platform untuk membantu buku-buku menemukan rumah barunya.</p>
+                <a className="btn btn-lg btn-primary yuk-donate" href="#Yuk-Donate" role="button">
                   Yuk Donate!
                 </a>
-                <a
-                  class="btn btn-lg how-works px-4"
-                  href="http://localhost:3000/about"
-                  role="button"
-                >
+                <a className="btn btn-lg how-works" href="http://localhost:3000/about" role="button">
                   Bagaimana Bagibuku Bekerja
                 </a>
               </div>

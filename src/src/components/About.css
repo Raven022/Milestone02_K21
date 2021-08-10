@@ -1,25 +1,24 @@
 .bg-image {
-    background-image: url("./../img/landingpage.png");
-    background-size: cover;
-  }
-  
-  
-  /* Bagibuku */
-  .how-work {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 46px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .about-us {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #ffffff;
-  }
+  background-image: url("./../img/landingpage.png");
+  background-size: cover;
+}
+
+/* Bagibuku */
+.how-work {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-us {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
