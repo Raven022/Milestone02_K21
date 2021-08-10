@@ -1,44 +1,36 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./Navbar.css";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Navbar({ user, Logout }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-Mycolor">
-      <div class="container bagibuku">
-        <img src="./images/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
-        <a class="navbar-brand ms-3" href="http://localhost:3000">
-          Bagibuku
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link tombol px-5" href="http://localhost:3000/about">
+    <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light">
+      <Container>
+        <Navbar.Brand className="bagibuku" href="http://localhost:3000">
+          <img src="./images/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
+          <a class="navbar-brand ms-3" href="http://localhost:3000">
+            Bagibuku
+          </a>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link className="tombol px-4" href="http://localhost:3000/about">
               Tentang Kami
-            </a>
-            {user.name === "" ? (
-              <a class="nav-link tombol tombol-2 px-4" href="http://localhost:3000/login">
-                Login Sekolah
-              </a>
-            ) : (
-              <button className="nav-link tombol tombol-2 px-4" onClick={Logout}>
-                Logout
-              </button>
-            )}
-          </div>
-        </div>
-      </div>
-    </nav>
+            </Nav.Link>
+            <Nav.Link
+              className="tombol tombol-2 px-4"
+              eventKey={2}
+              href="http://localhost:3000/login"
+              type="button"
+            >
+              Login Sekolah
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Navbars;
