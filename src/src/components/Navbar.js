@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ user, Logout }) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-Mycolor">
       <div class="container bagibuku">
@@ -25,9 +25,15 @@ function Navbar() {
             <a class="nav-link tombol px-5" href="http://localhost:3000/about">
               Tentang Kami
             </a>
-            <a class="nav-link tombol tombol-2 px-4" href="http://localhost:3000/login">
-              Login Sekolah
-            </a>
+            {user.name === "" ? (
+              <a class="nav-link tombol tombol-2 px-4" href="http://localhost:3000/login">
+                Login Sekolah
+              </a>
+            ) : (
+              <button className="nav-link tombol tombol-2 px-4" onClick={Logout}>
+                Logout
+              </button>
+            )}
           </div>
         </div>
       </div>
