@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./EditSekolah.css";
 import { Container, Row, Table, Col, Button } from 'react-bootstrap';
-// import sekolah_1 from './../img/sekolah_1.svg';
+//import sekolah_1 from './../img/sekolah_1.svg';
 function EditSekolah() {
 
     return (
@@ -14,7 +14,7 @@ function EditSekolah() {
                     <Col lg={true}>
                         <div class="right">
                             <h3>Nama Sekolah</h3>
-                            <p>Sekolah Dasar Isla Terpadu Al-Huda</p>
+                            <p>Sekolah Dasar Islam Terpadu Al-Huda</p>
                             <h3>Alamat Sekolah</h3>
                             <p>Jl. P. Bangka Raya No.1, RT.004/RW.016, Aren Jaya, Kec. Bekasi Tim., Kota Bks, Jawa Barat 17111</p>
                             <h3>Kontak</h3>

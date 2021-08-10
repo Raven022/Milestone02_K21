@@ -19,8 +19,8 @@ function About() {
                   Bagibuku bekerja dengan cara membantu para pendonasi <br />
                   buku untuk menemukan pihak penerima pendonasi dengan <br />
                   tepat. <br />
-                  Sebagai pendonasi, kamu bisa memasukkan bukumu ke <br />
-                  dalam katalog BagiBuku. <br />
+                  Sebagai pendonasi, kamu bisa mencari pihak yang membutuhkan buku <br />
+                  dalam List Sekolah BagiBuku. <br />
                   Sebagai pihak penerima, kamu bisa menghubungi pihak <br />
                   BagiBuku untuk mendaftarkan sekolahmu di website <br />
                   BagiBuku, sehingga para pendonasi bisa menemukanmu. <br />
