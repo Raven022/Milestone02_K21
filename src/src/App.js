@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-ro
 import { useState } from "react";
 
 // Komponen Website
-import Navbar from "./components/Navbar";
+import Navbars from "./components/Navbars";
 import Home from "./components/Home";
 import About from "./components/About";
 import LoginPage from "./components/loginPage";
@@ -43,7 +43,7 @@ function App() {
   // Web
   return (
     <Router>
-      <Navbar user={user} Logout={Logout} />
+      <Navbars user={user} Logout={Logout} />
       {/* Konten */}
       <Switch>
         <Route exact path="/">

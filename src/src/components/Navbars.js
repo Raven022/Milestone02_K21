@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "./Navbar.css";
+import "./Navbars.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
-function Navbar({ user, Logout }) {
+function Navbars({ user, Logout }) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light">
       <Container>
@@ -18,14 +18,25 @@ function Navbar({ user, Logout }) {
             <Nav.Link className="tombol px-4" href="http://localhost:3000/about">
               Tentang Kami
             </Nav.Link>
-            <Nav.Link
-              className="tombol tombol-2 px-4"
-              eventKey={2}
-              href="http://localhost:3000/login"
-              type="button"
-            >
-              Login Sekolah
-            </Nav.Link>
+            {user.name == "" ? (
+              <Nav.Link
+                className="tombol tombol-2 px-4"
+                eventKey={2}
+                href="http://localhost:3000/login"
+                type="button"
+              >
+                Login Sekolah
+              </Nav.Link>
+            ) : (
+              <Nav.Link
+                className="tombol tombol-2 px-4"
+                eventKey={2}
+                onClick={Logout}
+                type="button"
+              >
+                Logout
+              </Nav.Link>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
