@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import LoginPage from "./components/loginPage";
 import EditSekolah from "./components/EditSekolah";
+import ProfileSekolah from "./components/ProfileSekolah";
 
 function App() {
   // List Akun
@@ -60,7 +61,7 @@ function App() {
           {user.name == "" ? <LoginPage Login={Login} error={error} /> : <Redirect to="/" />}
         </Route>
         <Route exact path="/profile_sekolah">
-          <h1>Profile Sekolah</h1>
+          <ProfileSekolah />
         </Route>
         <Route exact path="/edit_sekolah">
           <EditSekolah />
