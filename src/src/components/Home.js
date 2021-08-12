@@ -15,7 +15,7 @@ function Home() {
               <div className="home-text">
                 <h1 className="bagi-buku mt-5">Bagibuku</h1>
                 <p className="about-us mt-5">Bagibuku adalah sebuah platform untuk membantu buku-buku menemukan rumah barunya.</p>
-                <a className="btn btn-lg btn-primary yuk-donate" href="#Yuk-Donate" role="button">
+                <a className="btn btn-lg btn-primary yuk-donate" href="/login" role="button">
                   Yuk Donate!
                 </a>
                 <a className="btn btn-lg how-works" href="http://localhost:3000/about" role="button">

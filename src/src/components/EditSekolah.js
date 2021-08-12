@@ -5,7 +5,8 @@ import { Container, Row, Table, Col, Button } from 'react-bootstrap';
 function EditSekolah() {
 
     return (
-        <div className="bg">
+        <div className="bg" id="content">
+            {/* <img src={require('./../img/perspektif_sekolah.png').default} class="bg2"></img> */}
             <Container>
                 <Row>
                     <Col lg={true}>

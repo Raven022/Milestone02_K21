@@ -39,3 +39,9 @@
   font-size: 20px;
   color: #ffffff;
 }
+
+@media (min-width: 600px) {
+  .yuk-donate {
+    margin-right: 1.25em;
+  }
+}
