@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-// import "./ListSekolah.css";
+import "./ListSekolah.css";
 
 function List() {
   return (
