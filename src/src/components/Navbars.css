@@ -19,3 +19,8 @@
   background: #056676;
   border-radius: 10px;
 }
+
+#editProfile {
+  text-decoration: none;
+  color: black;
+}

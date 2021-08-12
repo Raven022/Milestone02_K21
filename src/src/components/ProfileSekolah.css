@@ -1,30 +1,28 @@
+.bg {
+  background-image: url("./../img/landingpage.png");
 
-.bg{
-    background-image: url("./../img/landingpage.png") ;
-
-    background-size: cover;
-    padding-bottom: 102px;
-
+  background-size: cover;
+  padding-bottom: 102px;
 }
-.bg img{
-    width: 580px; 
-
+.bg img {
+  width: 580px;
 }
-.right{
-    margin-top: 20px;
+.right {
+  margin-top: 20px;
 }
-.right p{
-    background: #E8DED2;
-    padding: 5px;
-    border-radius: 5px;
-    width: 500px;
+.right p {
+  background: #e8ded2;
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+  white-space: pre-wrap;
 }
 
-.school{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.school {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.table{
-    background: #E8DED2;
+.table {
+  background: #e8ded2;
 }

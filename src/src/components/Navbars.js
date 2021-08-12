@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./Navbars.css";
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function Navbars({ user, Logout }) {
   return (
@@ -15,7 +16,7 @@ function Navbars({ user, Logout }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link className="tombol px-4" href="about">
+            <Nav.Link className="tombol px-4" href="/about">
               Tentang Kami
             </Nav.Link>
             {user.name == "" ? (
@@ -24,7 +25,11 @@ function Navbars({ user, Logout }) {
               </Nav.Link>
             ) : (
               <NavDropdown className="px-4 tombol" title="Akun" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#">Edit Profil Sekolah</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink to="/edit_sekolah" id="editProfile">
+                    Edit Profile
+                  </NavLink>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item eventKey={2} onClick={Logout}>
                   Logout
