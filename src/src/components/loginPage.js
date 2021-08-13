@@ -16,14 +16,14 @@ function LoginPage({ Login, error }) {
       <section id="home">
         <div className="container-lg">
           <div className="row min-vh-100 align-items-center align-content-center">
-            <div className="col-md-7 order-md-first">
+            <div className="col-md-6 order-md-first">
               <div className="home-img text-center"></div>
               <img src="./images/givebook.png" className="mw-100" />
             </div>
-            <div className="login_box">
-              <img class="icon-img" src="./images/user.png" alt="icon" />
+            <div className="col-md-6">
               {/* Form Login */}
-              <form onSubmit={submitHandler}>
+              <form className="login_box" onSubmit={submitHandler}>
+                <img class="icon-img" src="./images/user.png" alt="icon" />
                 <div className="form-group" className="isi-email">
                   <label className="email-address">Email Address</label>
                   <input
@@ -36,7 +36,7 @@ function LoginPage({ Login, error }) {
                     value={details.email}
                   />
                 </div>
-                <div className="form-group">
+                <div className="form-group" className="isi-password">
                   <label className="password">Password</label>
                   <input
                     type="password"
@@ -50,7 +50,7 @@ function LoginPage({ Login, error }) {
                 </div>
                 <div className="form-group">
                   <div className="custom-control custom-checkbox">
-                    <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                    <input type="checkbox" className="custom-control-input check-remember" id="customCheck1" />
                     <label className="custom-control-label Remember-me" htmlFor="customCheck1">
                       Remember me
                     </label>
@@ -61,6 +61,9 @@ function LoginPage({ Login, error }) {
                   value="Login"
                   className="btn btn-primary btn-lg btn-block submit-button"
                 ></input>
+                <p className="forgot-password text-right">
+                    Forgot <a href="#">password?</a>
+                </p>
               </form>
             </div>
           </div>

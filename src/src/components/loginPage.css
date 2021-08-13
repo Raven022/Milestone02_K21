@@ -5,51 +5,62 @@
 
   .login_box {
     background-color: #E8DED2;
-    position: absolute;
-    width: 600px;
-    height: 480px;
-    left: 850px;
-    top: 130px;
+    margin-bottom: 20%;
+    border-radius: 4%;
   }
   .icon-img {
-    height: 100px;
-    width: 100px;
-    top: 150px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 225px;
+    height: 14%;
+    width: 14%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 40%;
+    justify-content: center;
   }
   
   .email-address {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 8px;
-    margin-left: 2px;
+    font-size: 100%;
+    margin-bottom: 2%;
   }
 
   .isi-email {
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+
+  .isi-password {
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
   }
 
   .password {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 8px;
+    font-size: 100%;
+    margin-bottom: 2%;
   }
 
+  .check-remember {
+    margin-left: 2%;
+    margin-bottom: 3%;
+  }
   .Remember-me {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    margin-left: 5px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    font-size: 100%;
+    margin-left: 1%;
   }
   .submit-button {
-    width: 575px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    width: 94%;
+  }
+  .forgot-password {
+    margin-left: 75%;
   }
