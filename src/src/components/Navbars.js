@@ -8,7 +8,7 @@ function Navbars({ user, Logout }) {
     <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light">
       <Container>
         <Navbar.Brand className="bagibuku" href="http://localhost:3000">
-          <img src="./images/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
+          <img src="https://cdn.discordapp.com/attachments/777233158130892873/875599644086898698/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
           <a class="navbar-brand ms-3" href="http://localhost:3000">
             Bagibuku
           </a>

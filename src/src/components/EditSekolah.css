@@ -1,8 +1,7 @@
 .bg{
     background-image: url("./../img/perspektif_sekolah.png");
-    position: absolute; 
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 85px;
     left: 0;
     min-width: 100%;
@@ -10,17 +9,6 @@
     z-index: -100;
 }
 
-
-/* .bg{
-    background-image: url("./../img/landingpage.png");
-    background-size: cover;
-    padding-bottom: 102px;
-
-}
-.bg img{
-    width: 580px; 
-
-} */
 
 .right{
     margin-top: 20px;
