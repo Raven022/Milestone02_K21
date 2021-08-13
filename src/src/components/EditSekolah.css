@@ -45,7 +45,29 @@
     background: #056676;
 }
 
-@media (max-width: 700px) {
+::placeholder{
+    font-size: 0.8em;
+}
+
+
+label,
+input {
+    display: inline-block;
+}
+label {
+    padding: 3% 2% 2% 0;
+}
+input[type=text] {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=submit] {
+    margin: 2%;
+}
+
+@media screen and (max-width: 700px) {
     .school {
         margin-left: 1.5em;
         margin-right: 1.5em;
