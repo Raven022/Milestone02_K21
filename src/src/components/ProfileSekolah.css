@@ -2,25 +2,27 @@
   background-image: url("./../img/landingpage.png");
 
   background-size: cover;
-  padding-bottom: 102px;
+  padding-bottom: 16%;
 }
 .bg img {
-  width: 580px;
+  width: 100%;
 }
 .right {
-  margin-top: 20px;
+  font-family: Montserrat;
+  margin-top: 5%;
+  font-weight: 700;
 }
 .right p {
   background: #e8ded2;
-  padding: 5px;
+  padding: 1%;
   border-radius: 5px;
-  width: 500px;
+  width: 92%;
   white-space: pre-wrap;
 }
 
 .school {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 .table {
