@@ -22,3 +22,7 @@
   font-size: 20px;
   color: #ffffff;
 }
+
+p {
+  text-align: justify;
+}

@@ -32,7 +32,7 @@ function App() {
       id: 0,
       image:
         "https://cdn.discordapp.com/attachments/777233158130892873/874417989758357504/unknown.png",
-      namaSekolah: "Sekolah Dasar Isla Terpadu Al-Huda",
+      namaSekolah: "Sekolah Dasar Islam Terpadu Al-Huda",
       alamatSekolah:
         "Jl. P. Bangka Raya No.1, RT.004/RW.016, Aren Jaya, Kec. Bekasi Tim., Kota Bks, Jawa Barat 17111",
       kontak: ["Telp : (021) 82696958", "E-mail : sdital.huda@sch.ac.id"],
