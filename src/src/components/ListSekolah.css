@@ -11,6 +11,7 @@
 
 h1 {
   font-size: 150%;
+  padding-top: 2%;
   margin-bottom: 2%;
   font-weight: bold;
   color:white
@@ -43,10 +44,9 @@ h1 {
   background: #056676;
   margin-bottom: 4%;
   margin-right: 3%;
+  
 
 }
-
-
 
 
 table {
@@ -66,6 +66,7 @@ table {
 td {
   padding-top: 10px;
   padding-left:10px;
+  padding-right:10px;
   border: 2px solid black;
   width:20%;
   border-collapse: collapse;
