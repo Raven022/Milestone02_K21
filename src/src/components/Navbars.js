@@ -5,15 +5,10 @@ import { NavLink } from "react-router-dom";
 
 function Navbars({ user, Logout }) {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light">
+    <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light" className="fixed-top">
       <Container>
         <Navbar.Brand className="bagibuku" href="/">
-          <img
-            src="https://cdn.discordapp.com/attachments/777233158130892873/875599644086898698/logobagibuku.png"
-            alt="logo bagi buku"
-            width="60px"
-            height="60px"
-          />
+          <img src="https://cdn.discordapp.com/attachments/777233158130892873/875599644086898698/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
           <a class="navbar-brand ms-3" href="/">
             Bagibuku
           </a>
