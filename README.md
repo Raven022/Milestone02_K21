@@ -12,10 +12,12 @@
 <li>16520465 Ghazian Tsabit Alkamil, Landing Page</li>
 
 <h2>Inisialasasi Kode</h2>
+<ol>
   <li?1. Install Node.js</li>
   <li?2. Clone Repository</li>
   <li?3. Di terminal, ketik "npm install"</li>
   <li?4. Di terminal, ketik "npm start"</li>
+</ol>  
 <h2>Cara Menggunakan Website Bagibuku</h2> 
 <h3>Calon pendonasi</h3>
 <ol>
