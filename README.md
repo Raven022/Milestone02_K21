@@ -17,7 +17,7 @@
   <li?2. Clone Repository</li>
   <li?3. Di terminal, ketik "npm install"</li>
   <li?4. Di terminal, ketik "npm start"</li>
-</ol>  
+</ol>
 <h2>Cara Menggunakan Website Bagibuku</h2> 
 <h3>Calon pendonasi</h3>
 <ol>
