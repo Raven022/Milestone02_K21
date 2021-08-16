@@ -7,9 +7,14 @@ function Navbars({ user, Logout }) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="Mycolor" variant="light">
       <Container>
-        <Navbar.Brand className="bagibuku" href="http://localhost:3000">
-          <img src="https://cdn.discordapp.com/attachments/777233158130892873/875599644086898698/logobagibuku.png" alt="logo bagi buku" width="60px" height="60px" />
-          <a class="navbar-brand ms-3" href="http://localhost:3000">
+        <Navbar.Brand className="bagibuku" href="/">
+          <img
+            src="https://cdn.discordapp.com/attachments/777233158130892873/875599644086898698/logobagibuku.png"
+            alt="logo bagi buku"
+            width="60px"
+            height="60px"
+          />
+          <a class="navbar-brand ms-3" href="/">
             Bagibuku
           </a>
         </Navbar.Brand>
@@ -20,7 +25,7 @@ function Navbars({ user, Logout }) {
               Tentang Kami
             </Nav.Link>
             {user.name == "" ? (
-              <Nav.Link className="tombol tombol-2 px-4" eventKey={2} href="login" type="button">
+              <Nav.Link className="tombol tombol-2 px-4" eventKey={2} href="/login" type="button">
                 Login Sekolah
               </Nav.Link>
             ) : (

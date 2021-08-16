@@ -1,42 +1,34 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./ListSekolah.css";
-import { Container, Row, Table, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 function List({ dataSekolah }) {
   return (
     <div className="bg">
       <Container>
         <Row>
-          <h1 className="cari-sekolah">
-            CARI SEKOLAH/PANTI ASUHAN YANG MEMBUTUHKAN BUKU!{" "}
-          </h1>
+          <h1 className="cari-sekolah">CARI SEKOLAH/PANTI ASUHAN YANG MEMBUTUHKAN BUKU! </h1>
           <Row className="login_box">
             <Col md={7}>
               <div className="form-group">
-                <input
-                  className="form-control form-control-lg"
-                  placeholder="Nama Sekolah"
-                />
+                <input className="form-control form-control-lg" placeholder="Nama Sekolah" />
               </div>
             </Col>
             <Col md={4}>
-              <div className="form-group" className="form-kota">
-                <input
-                  className="form-control form-control-lg"
-                  placeholder="Kota"
-                />
+              <div className="form-group form-kota">
+                <input className="form-control form-control-lg" placeholder="Kota" />
               </div>
             </Col>
             <Col md={1}>
-              <Button class="CariButton" className="cari">Cari</Button>
+              <Button class="CariButton" className="cari">
+                Cari
+              </Button>
             </Col>
           </Row>
           <table id="simple-board">
             <tbody>
               <tr id="row0" className="tableheader">
                 <td id="cell0-0">
-                  <p className="sekolah-panti title">
-                    Nama Sekolah/Panti Asuhan{" "}
-                  </p>
+                  <p className="sekolah-panti title">Nama Sekolah/Panti Asuhan </p>
                 </td>
                 <td id="cell0-1">
                   <p className="domisili title">Domisili</p>

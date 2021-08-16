@@ -20,6 +20,26 @@ function ProfileSekolah({ data }) {
               <div>
                 <p>{data.kontak.join("\n")}</p>
               </div>
+              <h3>Detail Kebutuhan</h3>
+              <Table striped bordered hover class="table">
+                <thead>
+                  <tr>
+                    <th>Nama Buku</th>
+                    <th>Jumlah</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {data.buku.map((arr) => (
+                    <tr>
+                      {Object.values(arr).map((el) => (
+                        <td>{el}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </Table>
             </div>
           </Col>
         </Row>

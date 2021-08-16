@@ -24,7 +24,7 @@ function LoginPage({ Login, error }) {
               {/* Form Login */}
               <form className="login_box" onSubmit={submitHandler}>
                 <img class="icon-img" src="./images/user.png" alt="icon" />
-                <div className="form-group" className="isi-email">
+                <div className="form-group isi-email">
                   <label className="email-address">Email Address</label>
                   <input
                     type="email"
@@ -36,7 +36,7 @@ function LoginPage({ Login, error }) {
                     value={details.email}
                   />
                 </div>
-                <div className="form-group" className="isi-password">
+                <div className="form-group isi-password">
                   <label className="password">Password</label>
                   <input
                     type="password"
@@ -50,7 +50,11 @@ function LoginPage({ Login, error }) {
                 </div>
                 <div className="form-group">
                   <div className="custom-control custom-checkbox">
-                    <input type="checkbox" className="custom-control-input check-remember" id="customCheck1" />
+                    <input
+                      type="checkbox"
+                      className="custom-control-input check-remember"
+                      id="customCheck1"
+                    />
                     <label className="custom-control-label Remember-me" htmlFor="customCheck1">
                       Remember me
                     </label>
@@ -62,7 +66,7 @@ function LoginPage({ Login, error }) {
                   className="btn btn-primary btn-lg btn-block submit-button"
                 ></input>
                 <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
+                  Forgot <a href="#">password?</a>
                 </p>
               </form>
             </div>

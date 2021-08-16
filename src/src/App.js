@@ -39,8 +39,8 @@ function App() {
       kebutuhan:
         "Membutuhkan buku matematika dan IPA kelas 2-4 SD, Membutuhkan buku IPS kelas 5 sd",
       buku: [
-        ["Matematika Kelas 3 SD", "40", "Belum Terpenuhi"],
-        ["IPA Terpadu Kelas 4 SD", "36", "Belum Terpenuhi"],
+        { nama: "Matematika Kelas 3 SD", jumlah: 40, keterangan: "Belum Terpenuhi" },
+        { nama: "IPA Terpadu Kelas 4 SD", jumlah: 36, keterangan: "Belum Terpenuhi" },
       ],
     },
     {
@@ -52,13 +52,13 @@ function App() {
         "Komplek Krakatau Steel, Jl. Gabus No.13, Kebondalem, Kec. Purwakarta, Kota Cilegon, Banten 42433",
       kontak: ["Telp : (0254) 385351"],
       kebutuhan: "Membutuhkan buku Bahasa Inggris kelas 4 SD",
-      buku: [["Bahasa Ingris Kelas 4 SD", "90", "Belum Terpenuhi"]],
+      buku: [{ nama: "Bahasa Ingris Kelas 4 SD", jumlah: 90, keterangan: "Belum Terpenuhi" }],
     },
   ]);
 
   // penghandle update dataSekolah
   const handleUpdateDataSekolah = (adata) => {
-    let temp = dataSekolah;
+    let temp = JSON.parse(JSON.stringify(dataSekolah));
     temp[user.id] = adata;
     updateDataSekolah(temp);
   };
@@ -92,14 +92,20 @@ function App() {
     console.log(user);
   };
 
+  // Get local storage
   useEffect(() => {
     const userData = window.localStorage.getItem("userdata");
     const sekolahData = window.localStorage.getItem("sekolahdata");
 
-    setUser(JSON.parse(userData));
-    updateDataSekolah(JSON.parse(sekolahData));
+    if (userData !== null) {
+      setUser(JSON.parse(userData));
+    }
+    if (sekolahData !== null) {
+      updateDataSekolah(JSON.parse(sekolahData));
+    }
   }, []);
 
+  // Save Local Storage
   useEffect(() => {
     window.localStorage.setItem("userdata", JSON.stringify(user));
     window.localStorage.setItem("sekolahdata", JSON.stringify(dataSekolah));
@@ -129,7 +135,7 @@ function App() {
             <Redirect to="/" />
           ) : (
             <EditSekolah
-              data={dataSekolah[user.id]}
+              datan={dataSekolah[user.id]}
               handleUpdateDataSekolah={handleUpdateDataSekolah}
             />
           )}
